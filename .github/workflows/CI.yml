@@ -1,6 +1,9 @@
 name: Daily Commit
 
 on:
+  push:
+    branches:
+     - main
   schedule:
     # Uncomment the line below to use.
      - cron: '*/2 * * * *'
