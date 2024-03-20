@@ -8,7 +8,7 @@ on:
     branches: [ "main" ]
   schedule:
     # Uncomment the line below to use.
-    - cron: '*/1 * * * *' # Runs every day at 3 AM.
+    - cron: '*/5 * * * *'
 
 permissions:
   contents: read
@@ -43,7 +43,6 @@ jobs:
         python main.py
 
     - name: Commit Changes
-      # Insert your email and name below.
       run: |
         git config --global user.email "vaderngo@gmail.com"
         git config --global user.name "VaderNgo"
