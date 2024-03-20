@@ -17,7 +17,10 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python 3.10
