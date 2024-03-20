@@ -47,5 +47,5 @@ jobs:
         git config --global user.email "vaderngo@gmail.com"
         git config --global user.name "VaderNgo"
         git add .
-        git commit -am "Daily Commit"
+        git commit -am "Green your commits history 🌳"
         git push
