@@ -4,11 +4,9 @@
 name: Python application
 
 on:
-  push:
-    branches: [ "main" ]
   schedule:
     # Uncomment the line below to use.
-    - cron: '*/5 * * * *'
+    - cron: '0 */1 * * *'  #Every hour
 
 permissions:
   contents: read
